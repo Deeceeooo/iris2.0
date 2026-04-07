@@ -83,6 +83,14 @@ html, body, [class*="css"] {
     margin-bottom: 1.5rem;
 }
 
+.card h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.8rem;
+    color: var(--accent);
+    margin: 0 0 0.4rem;
+    letter-spacing: -1px;
+}
+
 .section-label {
     font-size: 0.72rem;
     color: var(--muted);
@@ -255,12 +263,11 @@ st.markdown("""
 
 st.markdown("""
 <div class='card'>
-    <h1>Enter Iris Measurements</h1>
+    <h2>Enter Iris Measurements</h2>
 </div>
 """, unsafe_allow_html=True)
 
 # ── Inline sliders ───────────────────────────────────────────────────────────
-st.markdown("<div class='card'>", unsafe_allow_html=True)
 st.markdown("<span class='section-label'>Adjust the slider to enter your inputs</span>", unsafe_allow_html=True)
 scol1, scol2 = st.columns(2)
 with scol1:
