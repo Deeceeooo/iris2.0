@@ -253,16 +253,22 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<div class='divider'>
+    <h1>Enter Iris Measurements</h1>
+</div>
+""", unsafe_allow_html=True)
+
 # ── Inline sliders ───────────────────────────────────────────────────────────
 st.markdown("<div class='card'>", unsafe_allow_html=True)
-st.markdown("<span class='section-label'>🌿 Sepal Measurements</span>", unsafe_allow_html=True)
+st.markdown("<span class='section-label'>Adjust the slider to enter your inputs</span>", unsafe_allow_html=True)
 scol1, scol2 = st.columns(2)
 with scol1:
     sepal_length = st.slider("Sepal Length (cm)", 4.0, 8.0, 5.8, 0.1)
 with scol2:
     sepal_width  = st.slider("Sepal Width (cm)",  2.0, 4.5, 3.0, 0.1)
 
-st.markdown("<br><span class='section-label'>🌸 Petal Measurements</span>", unsafe_allow_html=True)
+st.markdown("<br><span class='section-label'>Petal Measurements</span>", unsafe_allow_html=True)
 scol3, scol4 = st.columns(2)
 with scol3:
     petal_length = st.slider("Petal Length (cm)", 1.0, 7.0, 4.0, 0.1)
@@ -317,7 +323,7 @@ st.markdown("<hr class='divider'>", unsafe_allow_html=True)
 # ── Dataset preview ───────────────────────────────────────────────────────────
 st.markdown(f"""
 <div class='dataset-header'>
-    <span class='dataset-title'>📋 Iris Dataset Reference</span>
+    <span class='dataset-title'>Iris Dataset Reference</span>
     <span class='dataset-badge'>150 samples · 3 species · 4 features</span>
 </div>
 """, unsafe_allow_html=True)
@@ -330,4 +336,3 @@ with st.expander("View Full Dataset"):
     c3.metric("Classes", df["species"].nunique())
 
 st.markdown("<br>", unsafe_allow_html=True)
-st.caption("Model: Random Forest (100 trees) · Trained on Iris dataset · Accuracy: 100%")
