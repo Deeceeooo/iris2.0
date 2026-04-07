@@ -253,6 +253,12 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<div class='card'>
+    <h1>Enter Iris Measurements</h1>
+</div>
+""", unsafe_allow_html=True)
+
 # ── Inline sliders ───────────────────────────────────────────────────────────
 st.markdown("<div class='card'>", unsafe_allow_html=True)
 st.markdown("<span class='section-label'>Adjust the slider to enter your inputs</span>", unsafe_allow_html=True)
