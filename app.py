@@ -84,7 +84,7 @@ html, body, [class*="css"] {
 
 .card h4 {
     font-family: 'DM Serif Display', serif;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     color: var(--accent);
     margin: 0 0 0.4rem;
     letter-spacing: -1px;
