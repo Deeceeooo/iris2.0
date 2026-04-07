@@ -186,7 +186,6 @@ html, body, [class*="css"] {
 div[data-testid="stSlider"] label {
     font-size: 0.82rem !important;
     color: #8b9e8d !important;
-    div[data-testid="stSlider"] input {display: none !important;}
 }
 
 /* ── Divider ── */
@@ -201,10 +200,10 @@ div[data-testid="stSlider"] label {
     color: var(--tertiary) !important;
     font-family: 'DM Mono', monospace !important;
 }
-[data-testid="stMetricLabel"] {
-    color: var(--muted) !important;
-    font-size: 0.78rem !important;
-}
+# [data-testid="stMetricLabel"] {
+#     color: var(--muted) !important;
+#     font-size: 0.78rem !important;
+# }
 
 /* ── Expander ── */
 [data-testid="stExpander"] {
