@@ -186,6 +186,7 @@ html, body, [class*="css"] {
 div[data-testid="stSlider"] label {
     font-size: 0.82rem !important;
     color: #8b9e8d !important;
+    div[data-testid="stSlider"] input {display: none !important;}
 }
 
 /* ── Divider ── */
