@@ -187,6 +187,14 @@ div[data-testid="stSlider"] label {
     font-size: 0.82rem !important;
     color: #8b9e8d !important;
 }
+div[data-testid="stSlider"] [data-testid="stTickBarMin"],
+div[data-testid="stSlider"] [data-testid="stTickBarMax"],
+div[data-testid="stSlider"] > div > div > div > div > div:last-child {
+    display: none !important;
+}
+div[data-testid="stThumbValue"] {
+    display: none !important;
+}
 
 /* ── Divider ── */
 .divider {
