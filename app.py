@@ -4,7 +4,6 @@ import numpy as np
 import pickle
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-from sklearn.decomposition import PCA
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
