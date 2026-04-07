@@ -83,7 +83,7 @@ html, body, [class*="css"] {
     margin-bottom: 1.5rem;
 }
 
-.card h2 {
+.card h4 {
     font-family: 'DM Serif Display', serif;
     font-size: 2.8rem;
     color: var(--accent);
@@ -263,7 +263,7 @@ st.markdown("""
 
 st.markdown("""
 <div class='card'>
-    <h2>Enter Iris Measurements</h2>
+    <h4>Enter Iris Measurements</h4>
 </div>
 """, unsafe_allow_html=True)
 
